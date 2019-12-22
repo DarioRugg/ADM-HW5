@@ -29,12 +29,12 @@ if __name__ == '__main__':
         nodes_set = list(map(int, input("insert the set of nodes: ").split(" ")))
 
         try:  # running the functionality
-            nodes, path = func_2.functionality(start, to_visit)
+            func_2.functionality(nodes_set)
         except Exception:  # if one of those node is not reachable from the start we stop here.
             print("Not possible")
             sys.exit(0)  # stop the program, we don't want to plot.
 
-        plottingOnMaps(nodes, path=path)  # finally plotting!
+        
 
        
     
