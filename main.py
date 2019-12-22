@@ -25,8 +25,8 @@ if __name__ == '__main__':
 
     elif func == 2:
          # input
-        start = int(input("insert the starting node ID: "))
-        to_visit = list(map(int, input("insert the targets: ").split(" ")))
+       
+        nodes_set = list(map(int, input("insert the set of nodes: ").split(" ")))
 
         try:  # running the functionality
             nodes, path = func_2.functionality(start, to_visit)
