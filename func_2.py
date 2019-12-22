@@ -189,3 +189,6 @@ def visu_2(G,list_nodes,function):
 
 visu_2(G,[3,2],data_dist)
 
+def functionality(set_nodes):
+    visu_2(G, set_nodes, data_dist)
+
